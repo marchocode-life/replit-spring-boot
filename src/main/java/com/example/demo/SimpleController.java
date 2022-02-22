@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SimpleController {
 
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String hello() {
         return "hello-spring-boot-web";
     }
